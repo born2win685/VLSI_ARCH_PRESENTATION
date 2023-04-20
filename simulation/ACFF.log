@@ -1,0 +1,52 @@
+Circuit: * C:\Users\HP\Documents\pso_project\ACFF.asc
+
+WARNING: Node N1 is floating.
+WARNING: Node N2 is floating.
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+Gmin = 1.76685e-007
+Gmin = 1.89714e-008
+Gmin = 2.03704e-009
+Gmin = 2.18725e-010
+Gmin = 2.34854e-011
+Gmin = 2.52173e-012
+Gmin = 2.70769e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+
+t1: time=5.015e-009 at 5.015e-009
+t2: time=5.31036e-009 at 5.31036e-009
+clktoq: t2-t1=2.95358e-010
+power: AVG(-v(vdd)*i(v2))=-9.74476e-011 FROM 0 TO 1e-006
+variable: power*clktoq=-2.8782e-020
+delay: t2-t1=2.95358e-010
+
+
+Date: Wed Apr 19 19:04:27 2023
+Total elapsed time: 1.217 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 25597
+traniter = 25157
+tranpoints = 10258
+accept = 8165
+rejected = 2093
+matrix size = 103
+fillins = 0
+solver = Normal
+Thread vector: 43.1/30.3[2] 7.4/4.3[2] 2.8/42.8[1] 0.8/22.8[1]  2592/500
+Matrix Compiler1: 14.71 KB object code size  3.6/2.5/[1.6]
+Matrix Compiler2: 12.68 KB object code size  2.1/2.5/[1.0]
+

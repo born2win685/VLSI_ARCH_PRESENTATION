@@ -1,0 +1,32 @@
+Circuit: * C:\Users\HP\Documents\pso_project\TCFF.asc
+
+WARNING: Node N007 is floating.
+
+Direct Newton iteration for .op point succeeded.
+
+t1: time=5.015e-009 at 5.015e-009
+t2: time=1.00689e-008 at 1.00689e-008
+clktoq: t2-t1=5.05386e-009
+power: AVG(-v(vdd)*i(v2))=1.80886e-008 FROM 0 TO 3e-008
+variable: power*clktoq=9.14174e-017
+delay: t2-t1=5.05386e-009
+
+
+Date: Wed Apr 19 21:15:31 2023
+Total elapsed time: 0.284 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 3208
+traniter = 3160
+tranpoints = 1300
+accept = 1238
+rejected = 62
+matrix size = 101
+fillins = 12
+solver = Normal
+Thread vector: 19.7/16.3[2] 4.4/2.8[2] 2.2/1.5[2] 0.3/1.0[1]  2592/500
+Matrix Compiler1: 17.20 KB object code size  2.8/1.7/[1.0]
+Matrix Compiler2: 12.82 KB object code size  1.4/1.4/[0.4]
+
